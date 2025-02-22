@@ -1,5 +1,6 @@
 # TraffiSim
-TraffiSim is a Python-based intersection traffic simulator designed to capture various driving behaviors (including Indian driving styles and multi-lane configurations) that might not be fully addressed by large-scale simulators like SUMO. It uses the Intelligent Driver Model (IDM) for longitudinal control, MOBIL for lane changes, and supports both adaptive and fixed traffic signal strategies.
+TraffiSim is a Python-based intersection traffic simulator designed to capture various driving behaviors (including Indian driving styles and multi-lane configurations) that might not be fully addressed by large-scale simulators like SUMO. It uses the Intelligent Driver Model (IDM) for longitudinal control, MOBIL for lane changes, and supports both adaptive and fixed traffic signal strategies. 
+
 
 ## Table of Contents
 - [Why TraffiSim?](#why-traffisim)
