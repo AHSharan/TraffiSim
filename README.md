@@ -8,6 +8,7 @@ TraffiSim is a Python-based intersection traffic simulator designed to capture v
 - [Installation](#installation)
 - [Usage](#usage)
     - [Using in Python Scripts](#using-in-python-scripts)
+- [Visualizing Output Data](#visualizing-output-data)
 - [Simulation Parameters](#simulation-parameters)
 - [Customization](#customization)
 - [Comparison to Other Tools (SUMO, etc.)](#comparison-to-other-tools-sumo-etc)
@@ -146,6 +147,17 @@ sim = IntersectionSim(
 )
 sim.run()
 ```
+
+## Visualizing Output Data
+To visualize the output data, we have included a Python script called `analyzer.py` which uses Streamlit. This script provides various analysis tools to help you understand the simulation results.
+
+### Steps to Run the Analyzer
+1. Navigate to the installation directory of TraffiSim.
+2. Run the analyzer using Streamlit:
+    ```bash
+    streamlit run analyzer.py
+    ```
+3. This will launch a web interface where you can upload your simulation CSV files and explore various statistical analyses and visualizations.
 
 ## Simulation Parameters
 Commonly adjusted parameters:
